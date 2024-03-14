@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npx tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
     "build": "vite build"
   },
   "devDependencies": {
@@ -14,7 +14,7 @@
     "laravel-vite-plugin": "^1.0.0",
     "postcss": "^8.4.35",
     "tailwind": "^4.0.0",
-    "tailwindcss": "^3.1.0",
+    "tailwindcss": "^3.4.1",
     "vite": "^5.0.0"
   },
   "name": "testing_ngramu_djamoe",

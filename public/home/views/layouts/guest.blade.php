@@ -45,6 +45,9 @@
         <!-- Styles -->
         @livewireStyles
         @vite('resources/css/guest.css')
+
+        {{-- CSS --}}
+        <link rel="stylesheet" href="css/output.css">
     </head>
     <body
         id="main"
